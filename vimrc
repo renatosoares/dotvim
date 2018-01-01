@@ -1,4 +1,5 @@
-
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
 """""""""""""""""""" 3) Cores e fontes """"""""""""""""""""
 "
 " Ativa a numeração das linhas
