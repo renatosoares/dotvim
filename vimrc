@@ -1,28 +1,14 @@
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
-"""""""""""""""""""" 3) Cores e fontes """"""""""""""""""""
-"
-" Ativa a numeração das linhas
-set number
-"
-" Habilita o destaque de sintaxe
-syntax enable
-"
-" Esquema de cores do vim
-colorscheme desert
-set background=light
-"
-" Desativa a quebra de linha automática (comentado por padrão)
-set nolinebreak
-"
-" Permite a navegação dentro de uma mesma linha longa com j e k
-set wrap
-"
-"""""""""""""""""""" 3) Cores e fontes """"""""""""""""""""
+" Pathogen
+" call pathogen#runtime_append_all_bundles()
+" call pathogen#helptags()
+execute pathogen#infect()
 
-"""""""""""""""""""" 5) Linha de status """"""""""""""""""""
-"
-" Sempre mostra a linha de status
-set laststatus=2
-"
-"""""""""""""""""""" 5) Linha de status """"""""""""""""""""
+
+autocmd vimenter * NERDTree
+
+map <C-n> :NERDTreeToggle<CR>
+
+syntax on
+
+colorscheme desert
+"set background=light

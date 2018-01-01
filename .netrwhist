@@ -1,3 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/etc/apache2/conf-available'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/renato/.vim/bundle/fugitive'
+let g:netrw_dirhist_2='/home/renato/.vim/bundle/fugitive/plugin'
+let g:netrw_dirhist_3='/home/renato/.vim/bundle/nerdtree'
